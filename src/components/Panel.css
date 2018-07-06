@@ -1,0 +1,30 @@
+.Panel {
+  max-width: 300px;
+  margin: 0 auto;
+  border: 1px solid #bbb;
+  padding: 4px;
+}
+
+.PanelList {
+  background: salmon;
+  margin: 16px 0 0;
+  padding: 8px;
+}
+
+.PanelList li {
+  list-style: none;
+  text-align: left;
+  color: white;
+}
+
+.PanelList li:first-of-type {
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Button {
+  padding: 4px;
+  cursor: pointer;
+}
